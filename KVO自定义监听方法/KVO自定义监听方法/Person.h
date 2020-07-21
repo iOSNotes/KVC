@@ -1,8 +1,8 @@
 //
 //  Person.h
-//  自定义KVC流程
+//  KVO自定义监听方法
 //
-//  Created by 秦传龙 on 2020/7/20.
+//  Created by 秦传龙 on 2020/7/21.
 //  Copyright © 2020 秦传龙. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
 
-@property (nonatomic, strong) NSString *a;
+@property (nonatomic, copy) NSString *name;
 
 
 @end

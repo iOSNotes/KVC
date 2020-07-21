@@ -21,8 +21,28 @@
     // Do any additional setup after loading the view.
     
     Person *p = [Person new];
+
     
-//    [p setValue:nil forKey:nil];
+    [p cl_setValue:nil forKey:@"a"];
+    NSLog(@"%@", [p valueForKey:@"a"]);
+   NSError *error;
+    NSString *key = @"personName";
+    NSString *value = @"小明";
+    BOOL result = [self validateValue:&value forKey:key error:&error];
+    
+    if (error) {
+        NSLog(@"error = %@", error);
+        return;
+    }
+    
+    if (result) {
+        NSLog(@"验证正确是小明");
+    }
+    else {
+        NSLog(@"不是小明");
+    }
+    
+    
 }
 
 
