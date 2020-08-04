@@ -21,16 +21,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.person = [Person new];
-    [self.person cl_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    self.person = [Person share];
+//    [self.person cl_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    
+    [self.person addObserver:self forKeyPath:@"isLogin" options:NSKeyValueObservingOptionNew context:nil];
+    
 }
 
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    NSLog(@"%@", keyPath);
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(Person *)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    NSLog(@"%ld",[change[NSKeyValueChangeNewKey] boolValue]);
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.person.name = @"我是心智";
+//    self.person.name = @"我是心智";
+//    self.person.isLogin = YES;
+    
+    if ( self.person.isLogin == YES) {
+         self.person.isLogin = NO;
+    } else {
+         self.person.isLogin = YES;
+    }
+    
 }
 
 

@@ -10,4 +10,15 @@
 
 @implementation Person
 
++ (instancetype)share {
+    static dispatch_once_t onceToken;
+    static Person *per = nil;
+    dispatch_once(&onceToken, ^{
+        
+        per = [Person new];
+    });
+    return per;
+}
+
+
 @end

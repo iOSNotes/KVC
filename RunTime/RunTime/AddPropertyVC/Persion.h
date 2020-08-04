@@ -1,8 +1,8 @@
 //
-//  Person.h
-//  KVO自定义监听方法
+//  Persion.h
+//  RunTime
 //
-//  Created by 秦传龙 on 2020/7/21.
+//  Created by 秦传龙 on 2020/7/25.
 //  Copyright © 2020 秦传龙. All rights reserved.
 //
 
@@ -10,11 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@interface Persion : NSObject
 
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, assign) BOOL isLogin;
-+ (instancetype)share;
 
 @end
 
