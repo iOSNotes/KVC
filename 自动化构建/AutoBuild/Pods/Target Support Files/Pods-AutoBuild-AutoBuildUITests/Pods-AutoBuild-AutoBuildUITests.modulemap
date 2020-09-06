@@ -1,0 +1,6 @@
+framework module Pods_AutoBuild_AutoBuildUITests {
+  umbrella header "Pods-AutoBuild-AutoBuildUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MainProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MainProject
+
+  target 'MainProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MainProjectUITests' do
+    # Pods for testing
+  end
+
+end
+
+target "LoginModule" do
+   use_frameworks!
+   
+  workspace 'MainProject'
+   project 'Module/LoginModule/LoginModule.xcodeproj'
+  
+  
+  end

@@ -42,6 +42,11 @@
     
     self.viewControllers = mArr;
     
+
+    //添加阴影
+    self.tabBar.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+    self.tabBar.layer.shadowOffset = CGSizeMake(0, -5);
+    self.tabBar.layer.shadowOpacity = 0.3;
     
     // 打印一下self上的所有属性
 

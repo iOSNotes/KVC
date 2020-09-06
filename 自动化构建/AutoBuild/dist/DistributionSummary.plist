@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoBuild.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4CA7C72109F7AA286E672C7C7A116967CD89EC12</string>
+				<key>dateExpires</key>
+				<string>2021/4/17</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>UF473927C9.com.chinatower.towerEle</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>UF473927C9</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>UF473927C9.com.chinatower.towerEle</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>AutoBuild.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b0e210e4-24e3-411f-a488-4b43b1bd7597</string>
+				<key>name</key>
+				<string>hoc-铁塔换电</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>UF473927C9</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

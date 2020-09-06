@@ -1,0 +1,132 @@
+BCSymbolMap Version: 2.0
+_OBJC_CLASS_$_AppDelegate
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+/Users/qinchuanlong/Desktop/IOS/iOS/自动化构建/AutoBuild/AutoBuild/main.m
+/Users/qinchuanlong/Desktop/IOS/iOS/自动化构建/AutoBuild
+main
+AutoBuild/main.m
+-[ViewController viewDidLoad]
+-[ViewController touchesEnded:withEvent:]
+-[ViewController imagePickerController:didFinishPickingMediaWithInfo:]
+-[ViewController getImageDetailInfo:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___37-[ViewController getImageDetailInfo:]_block_invoke
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
+_OBJC_CLASS_$_ViewController
+_OBJC_CLASSLIST_SUP_REFS_$_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.29
+___block_descriptor_40_e8_32r_e17_v16?0"ALAsset"8l
+_OBJC_SELECTOR_REFERENCES_.32
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIImagePickerControllerDelegate
+__OBJC_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UIImagePickerControllerDelegate
+__OBJC_$_PROTOCOL_REFS_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UINavigationControllerDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UINavigationControllerDelegate
+__OBJC_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+__OBJC_CLASS_PROTOCOLS_$_ViewController
+__OBJC_METACLASS_RO_$_ViewController
+_OBJC_METACLASS_$_ViewController
+__OBJC_$_INSTANCE_METHODS_ViewController
+__OBJC_$_PROP_LIST_ViewController
+__OBJC_CLASS_RO_$_ViewController
+_OBJC_LABEL_CLASS_$
+/Users/qinchuanlong/Desktop/IOS/iOS/自动化构建/AutoBuild/AutoBuild/ViewController.m
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
+__37-[ViewController getImageDetailInfo:]_block_invoke
+AutoBuild/ViewController.m
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate persistentContainer]
+___34-[AppDelegate persistentContainer]_block_invoke
+-[AppDelegate saveContext]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+___34-[AppDelegate persistentContainer]_block_invoke.cold.1
+-[AppDelegate saveContext].cold.1
+_OBJC_IVAR_$_AppDelegate._persistentContainer
+___block_descriptor_32_e50_v24?0"NSPersistentStoreDescription"8"NSError"16l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_IVAR_$_AppDelegate._window
+__OBJC_$_PROTOCOL_REFS_UIApplicationDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIApplicationDelegate
+__OBJC_$_PROP_LIST_UIApplicationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIApplicationDelegate
+__OBJC_PROTOCOL_$_UIApplicationDelegate
+__OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+__OBJC_CLASS_PROTOCOLS_$_AppDelegate
+__OBJC_METACLASS_RO_$_AppDelegate
+_OBJC_METACLASS_$_AppDelegate
+__OBJC_$_INSTANCE_METHODS_AppDelegate
+__OBJC_$_INSTANCE_VARIABLES_AppDelegate
+__OBJC_$_PROP_LIST_AppDelegate
+__OBJC_CLASS_RO_$_AppDelegate
+/Users/qinchuanlong/Desktop/IOS/iOS/自动化构建/AutoBuild/AutoBuild/AppDelegate.m
+AutoBuild/AppDelegate.m
+__34-[AppDelegate persistentContainer]_block_invoke
+AutoBuild/AppDelegate.h
+-[SceneDelegate scene:willConnectToSession:options:]
+-[SceneDelegate sceneDidDisconnect:]
+-[SceneDelegate sceneDidBecomeActive:]
+-[SceneDelegate sceneWillResignActive:]
+-[SceneDelegate sceneWillEnterForeground:]
+-[SceneDelegate sceneDidEnterBackground:]
+-[SceneDelegate window]
+-[SceneDelegate setWindow:]
+-[SceneDelegate .cxx_destruct]
+_OBJC_IVAR_$_SceneDelegate._window
+__OBJC_$_PROTOCOL_REFS_UISceneDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISceneDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UISceneDelegate
+__OBJC_PROTOCOL_$_UISceneDelegate
+__OBJC_LABEL_PROTOCOL_$_UISceneDelegate
+__OBJC_$_PROTOCOL_REFS_UIWindowSceneDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIWindowSceneDelegate
+__OBJC_$_PROP_LIST_UIWindowSceneDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIWindowSceneDelegate
+__OBJC_PROTOCOL_$_UIWindowSceneDelegate
+__OBJC_LABEL_PROTOCOL_$_UIWindowSceneDelegate
+__OBJC_CLASS_PROTOCOLS_$_SceneDelegate
+__OBJC_METACLASS_RO_$_SceneDelegate
+_OBJC_METACLASS_$_SceneDelegate
+__OBJC_$_INSTANCE_METHODS_SceneDelegate
+__OBJC_$_INSTANCE_VARIABLES_SceneDelegate
+__OBJC_$_PROP_LIST_SceneDelegate
+__OBJC_CLASS_RO_$_SceneDelegate
+_OBJC_CLASS_$_SceneDelegate
+/Users/qinchuanlong/Desktop/IOS/iOS/自动化构建/AutoBuild/AutoBuild/SceneDelegate.m
+AutoBuild/SceneDelegate.m
+AutoBuild/SceneDelegate.h
